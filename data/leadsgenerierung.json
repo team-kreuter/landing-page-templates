@@ -1,0 +1,196 @@
+{
+  "meta": {
+    "title": "Ihr Meisterbetrieb für Sanitär & Heizung | Mustermann Handwerk",
+    "description": "Professionelle Handwerksleistungen in Ihrer Region. Sanitär, Heizung & Badsanierung vom Meisterbetrieb. Jetzt kostenloses Angebot anfordern!"
+  },
+  "hero": {
+    "badge": "Meisterbetrieb seit 2005",
+    "headline": "Zuverlässige Handwerksarbeit,\ndie überzeugt",
+    "subheadline": "Sanitär, Heizung & Badsanierung vom Meisterbetrieb in Musterstadt. Termingerecht, sauber und zum fairen Preis.",
+    "ctaText": "Kostenloses Angebot anfordern",
+    "ctaSubtext": "Antwort innerhalb von 24 Stunden",
+    "trustBadges": [
+      "500+ zufriedene Kunden",
+      "Meisterbetrieb",
+      "4.9 ★ auf Google"
+    ]
+  },
+  "problem": {
+    "badge": "Kennen Sie das?",
+    "headline": "Diese Probleme kennen\nviele Hausbesitzer",
+    "subheadline": "Wir verstehen Ihre Frustration – und lösen sie professionell.",
+    "items": [
+      {
+        "icon": "Clock",
+        "title": "Ewig lange Wartezeiten",
+        "description": "Wochen oder Monate auf einen Handwerkertermin warten? Das muss nicht sein."
+      },
+      {
+        "icon": "AlertTriangle",
+        "title": "Unzuverlässige Handwerker",
+        "description": "Termine werden nicht eingehalten, Rückrufe bleiben aus – keine Seltenheit in der Branche."
+      },
+      {
+        "icon": "Receipt",
+        "title": "Unklare Kostenstruktur",
+        "description": "Versteckte Kosten und böse Überraschungen auf der Endrechnung sind leider weit verbreitet."
+      },
+      {
+        "icon": "ShieldX",
+        "title": "Mangelnde Qualität",
+        "description": "Pfusch am Bau und nachträgliche Reparaturen kosten am Ende doppelt so viel."
+      }
+    ]
+  },
+  "solution": {
+    "badge": "Unser Prozess",
+    "headline": "In 3 Schritten zu\nIhrem Projekt",
+    "subheadline": "Einfach, transparent und stressfrei.",
+    "steps": [
+      {
+        "step": 1,
+        "icon": "MessageSquare",
+        "title": "Kostenlose Beratung",
+        "description": "Schildern Sie uns Ihr Anliegen – per Telefon, E-Mail oder über unser Kontaktformular. Wir melden uns innerhalb von 24 Stunden."
+      },
+      {
+        "step": 2,
+        "icon": "ClipboardCheck",
+        "title": "Besichtigung & Angebot",
+        "description": "Wir kommen zu Ihnen, begutachten die Situation vor Ort und erstellen ein transparentes Festpreisangebot – ohne versteckte Kosten."
+      },
+      {
+        "step": 3,
+        "icon": "Hammer",
+        "title": "Professionelle Umsetzung",
+        "description": "Zum vereinbarten Termin führen unsere Meister die Arbeiten sauber, pünktlich und in höchster Qualität durch."
+      }
+    ]
+  },
+  "benefits": {
+    "badge": "Warum wir?",
+    "headline": "Das macht uns\nanders",
+    "subheadline": "Seit über 18 Jahren vertrauen uns Kunden in der Region Musterstadt.",
+    "items": [
+      {
+        "icon": "Award",
+        "title": "Meisterqualität",
+        "description": "Alle Arbeiten werden von ausgebildeten Meistern ausgeführt – keine Subunternehmer, keine Kompromisse."
+      },
+      {
+        "icon": "Euro",
+        "title": "Festpreisgarantie",
+        "description": "Sie erhalten ein verbindliches Angebot vorab. Was im Angebot steht, das zahlen Sie – nicht mehr."
+      },
+      {
+        "icon": "CalendarCheck",
+        "title": "Termintreue",
+        "description": "Wir halten unsere Termine ein. Sollte es mal eng werden, informieren wir Sie rechtzeitig."
+      },
+      {
+        "icon": "Sparkles",
+        "title": "Sauberkeit",
+        "description": "Nach getaner Arbeit hinterlassen wir Ihre Räume so sauber, wie wir sie vorgefunden haben."
+      },
+      {
+        "icon": "ShieldCheck",
+        "title": "5 Jahre Garantie",
+        "description": "Auf alle unsere Arbeiten erhalten Sie bis zu 5 Jahre Gewährleistung."
+      },
+      {
+        "icon": "Headphones",
+        "title": "Notdienst 24/7",
+        "description": "Rohrbruch am Wochenende? Unser Notdienst ist rund um die Uhr für Sie erreichbar."
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "Kundenstimmen",
+    "headline": "Das sagen unsere\nKunden",
+    "subheadline": "Über 500 zufriedene Kunden sprechen für sich.",
+    "items": [
+      {
+        "name": "Familie Schmidt",
+        "location": "Musterstadt",
+        "text": "Unsere komplette Badsanierung wurde termingerecht und in hervorragender Qualität umgesetzt. Das Team war freundlich, sauber und hat mitgedacht. Absolute Empfehlung!",
+        "rating": 5
+      },
+      {
+        "name": "Thomas M.",
+        "role": "Hausbesitzer",
+        "location": "Musterstadt",
+        "text": "Endlich ein Handwerker, der hält was er verspricht. Pünktlich, sauber, fairer Preis. So muss das sein!",
+        "rating": 5
+      },
+      {
+        "name": "Petra & Klaus W.",
+        "location": "Musterstadt-Süd",
+        "text": "Von der Beratung bis zur Fertigstellung alles top. Besonders die transparente Preisgestaltung hat uns überzeugt. Wir kommen wieder!",
+        "rating": 5
+      }
+    ]
+  },
+  "faq": {
+    "badge": "Häufige Fragen",
+    "headline": "Ihre Fragen,\nunsere Antworten",
+    "items": [
+      {
+        "question": "Wie schnell können Sie einen Termin anbieten?",
+        "answer": "In der Regel können wir innerhalb von 1-2 Wochen einen Besichtigungstermin anbieten. Bei Notfällen sind wir natürlich sofort zur Stelle."
+      },
+      {
+        "question": "Bieten Sie auch Finanzierung an?",
+        "answer": "Ja, für größere Projekte wie Badsanierungen bieten wir in Zusammenarbeit mit unserer Partnerbank attraktive Finanzierungsmöglichkeiten an."
+      },
+      {
+        "question": "Arbeiten Sie auch am Wochenende?",
+        "answer": "Unseren Notdienst erreichen Sie 24/7. Reguläre Termine vergeben wir von Montag bis Freitag, in Ausnahmefällen auch samstags."
+      },
+      {
+        "question": "Wie verbindlich ist Ihr Angebot?",
+        "answer": "Unsere Angebote sind Festpreise. Solange sich am Umfang der Arbeiten nichts ändert, bleibt der Preis wie vereinbart – ohne versteckte Kosten."
+      },
+      {
+        "question": "Welche Zahlungsmethoden akzeptieren Sie?",
+        "answer": "Sie können per Überweisung, EC-Karte oder bei größeren Projekten in Teilzahlungen bezahlen."
+      }
+    ]
+  },
+  "cta": {
+    "headline": "Bereit für Ihr Projekt?",
+    "subheadline": "Fordern Sie jetzt Ihr kostenloses und unverbindliches Angebot an. Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "ctaText": "Jetzt Angebot anfordern",
+    "features": [
+      "Kostenlose Beratung",
+      "Festpreisgarantie",
+      "Innerhalb 24h Rückmeldung"
+    ]
+  },
+  "contact": {
+    "badge": "Kontakt",
+    "headline": "Schreiben Sie uns",
+    "subheadline": "Füllen Sie das Formular aus und wir melden uns schnellstmöglich bei Ihnen.",
+    "successMessage": "Vielen Dank für Ihre Anfrage! Wir melden uns innerhalb von 24 Stunden bei Ihnen.",
+    "fields": {
+      "name": "Ihr Name",
+      "email": "E-Mail-Adresse",
+      "phone": "Telefonnummer",
+      "message": "Ihre Nachricht",
+      "submit": "Anfrage absenden",
+      "consent": "Ich stimme der Verarbeitung meiner Daten gemäß der Datenschutzerklärung zu."
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Mustermann Handwerk GmbH. Alle Rechte vorbehalten.",
+    "links": [
+      {
+        "label": "Impressum",
+        "href": "/impressum"
+      },
+      {
+        "label": "Datenschutz",
+        "href": "/datenschutz"
+      }
+    ]
+  }
+}

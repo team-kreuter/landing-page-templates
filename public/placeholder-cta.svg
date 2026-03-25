@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" fill="none">
+  <rect width="500" height="400" rx="20" fill="#292524"/>
+  <!-- Clipboard -->
+  <rect x="170" y="80" width="160" height="220" rx="12" fill="#44403C" stroke="#57534E" stroke-width="2"/>
+  <rect x="220" y="65" width="60" height="25" rx="8" fill="#57534E"/>
+  <!-- Checkmark lines -->
+  <circle cx="205" cy="135" r="8" fill="#1B4D3E"/>
+  <path d="M200 135 L204 139 L212 131" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="225" y="130" width="80" height="8" rx="3" fill="#57534E"/>
+  <circle cx="205" cy="175" r="8" fill="#1B4D3E"/>
+  <path d="M200 175 L204 179 L212 171" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="225" y="170" width="60" height="8" rx="3" fill="#57534E"/>
+  <circle cx="205" cy="215" r="8" fill="#2D7A5F"/>
+  <path d="M200 215 L204 219 L212 211" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="225" y="210" width="70" height="8" rx="3" fill="#57534E"/>
+  <!-- Empty checkbox -->
+  <rect x="197" y="247" width="16" height="16" rx="4" stroke="#57534E" stroke-width="2" fill="none"/>
+  <rect x="225" y="250" width="50" height="8" rx="3" fill="#44403C"/>
+  <!-- Pen -->
+  <rect x="340" y="140" width="8" height="100" rx="3" fill="#2D7A5F" transform="rotate(-30 340 140)"/>
+  <polygon points="310,260 320,268 305,275" fill="#1B4D3E"/>
+  <!-- Sparkle -->
+  <path d="M380 100 L385 115 L400 110 L385 120 L390 135 L380 122 L370 135 L375 120 L360 110 L375 115Z" fill="#2D7A5F" opacity="0.6"/>
+</svg>

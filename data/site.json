@@ -1,0 +1,21 @@
+{
+  "company": {
+    "name": "Mustermann GmbH",
+    "logo": "/logo-placeholder.svg",
+    "street": "Musterstraße 1",
+    "zip": "12345",
+    "city": "Musterstadt",
+    "country": "Deutschland",
+    "phone": "+49 123 456789",
+    "email": "info@mustermann.de",
+    "website": "https://www.mustermann.de",
+    "ceo": "Max Mustermann",
+    "register": "HRB 12345, Amtsgericht Musterstadt",
+    "vatId": "DE123456789"
+  },
+  "datenschutz": {
+    "responsiblePerson": "Max Mustermann",
+    "hostingProvider": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, USA",
+    "analyticsInfo": "Diese Website verwendet Meta Pixel und die Meta Conversions API zur Analyse des Nutzerverhaltens und zur Optimierung von Werbekampagnen."
+  }
+}
