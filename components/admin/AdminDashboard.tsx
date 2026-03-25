@@ -2,13 +2,14 @@
 
 import { useState } from "react";
 import { useRouter } from "next/navigation";
-import { Building2, Palette, FileText, BarChart3, LogOut, AlertTriangle } from "lucide-react";
+import { Building2, Palette, FileText, BarChart3, Mail, LogOut, AlertTriangle } from "lucide-react";
 import { SiteEditor } from "./SiteEditor";
 import { ThemeEditor } from "./ThemeEditor";
 import { ContentEditor } from "./ContentEditor";
 import { TrackingEditor } from "./TrackingEditor";
+import { EmailEditor } from "./EmailEditor";
 
-type Tab = "site" | "theme" | "tracking" | "leadsgenerierung";
+type Tab = "site" | "theme" | "tracking" | "email" | "leadsgenerierung";
 
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -16,6 +17,7 @@ const tabs: { id: Tab; label: string; icon: React.ReactNode }[] = [
   { id: "site", label: "Firmendaten", icon: <Building2 className="h-4 w-4" /> },
   { id: "theme", label: "Farben", icon: <Palette className="h-4 w-4" /> },
   { id: "tracking", label: "Tracking", icon: <BarChart3 className="h-4 w-4" /> },
+  { id: "email", label: "E-Mail", icon: <Mail className="h-4 w-4" /> },
   { id: "leadsgenerierung", label: "Landing Page", icon: <FileText className="h-4 w-4" /> },
 ];
 
@@ -84,6 +86,7 @@ export function AdminDashboard() {
           {activeTab === "site" && <SiteEditor />}
           {activeTab === "theme" && <ThemeEditor />}
           {activeTab === "tracking" && <TrackingEditor />}
+          {activeTab === "email" && <EmailEditor />}
           {activeTab === "leadsgenerierung" && <ContentEditor page="leadsgenerierung" />}
         </div>
       </main>

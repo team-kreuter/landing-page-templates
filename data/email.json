@@ -1,0 +1,17 @@
+{
+  "enabled": false,
+  "smtp": {
+    "host": "",
+    "port": 587,
+    "secure": false,
+    "user": "",
+    "password": ""
+  },
+  "from": {
+    "name": "Kontaktformular",
+    "email": ""
+  },
+  "to": "",
+  "subject": "Neue Anfrage über das Kontaktformular",
+  "replyTo": true
+}
