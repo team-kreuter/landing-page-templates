@@ -5,6 +5,7 @@ export interface HeroContent {
   ctaText: string;
   ctaSubtext?: string;
   image?: string;
+  imageVisible?: boolean;
   trustBadges?: string[];
 }
 
@@ -81,6 +82,8 @@ export interface CTAContent {
   subheadline?: string;
   ctaText: string;
   features?: string[];
+  image?: string;
+  imageVisible?: boolean;
 }
 
 export interface ContactContent {

@@ -13,7 +13,9 @@
       "500+ zufriedene Kunden",
       "Meisterbetrieb",
       "4.9 ★ auf Google"
-    ]
+    ],
+    "image": "/placeholder-hero.svg",
+    "imageVisible": true
   },
   "problem": {
     "badge": "Kennen Sie das?",
@@ -164,7 +166,9 @@
       "Kostenlose Beratung",
       "Festpreisgarantie",
       "Innerhalb 24h Rückmeldung"
-    ]
+    ],
+    "image": "/placeholder-cta.svg",
+    "imageVisible": true
   },
   "contact": {
     "badge": "Kontakt",
