@@ -25,7 +25,7 @@ const itemVariants = {
 };
 
 const FALLBACK_HERO_IMAGE =
-  "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80";
+  "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80";
 
 function isPlaceholder(src?: string) {
   return !src || src.startsWith("/placeholder");
