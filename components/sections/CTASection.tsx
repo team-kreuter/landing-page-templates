@@ -4,6 +4,13 @@ import { Check } from "lucide-react";
 import { AnimatedSection } from "@/components/ui/AnimatedSection";
 import type { CTAContent } from "@/types/content";
 
+const FALLBACK_CTA_IMAGE =
+  "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?auto=format&fit=crop&w=800&q=80";
+
+function isPlaceholder(src?: string) {
+  return !src || src.startsWith("/placeholder");
+}
+
 interface CTASectionProps {
   content: CTAContent;
 }
@@ -13,7 +20,8 @@ export function CTASection({ content }: CTASectionProps) {
     document.getElementById("kontakt")?.scrollIntoView({ behavior: "smooth" });
   };
 
-  const showImage = content.imageVisible !== false && content.image;
+  const ctaImage = isPlaceholder(content.image) ? FALLBACK_CTA_IMAGE : content.image;
+  const showImage = content.imageVisible !== false;
 
   return (
     <section className="bg-stone-900 py-20 md:py-28">
@@ -58,7 +66,7 @@ export function CTASection({ content }: CTASectionProps) {
           {showImage && (
             <AnimatedSection delay={0.2} className="w-full max-w-sm flex-shrink-0 lg:max-w-md">
               <img
-                src={content.image}
+                src={ctaImage}
                 alt=""
                 className="h-auto w-full rounded-2xl object-cover"
               />

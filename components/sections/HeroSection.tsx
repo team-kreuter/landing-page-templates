@@ -24,6 +24,13 @@ const itemVariants = {
   },
 };
 
+const FALLBACK_HERO_IMAGE =
+  "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=800&q=80";
+
+function isPlaceholder(src?: string) {
+  return !src || src.startsWith("/placeholder");
+}
+
 interface HeroSectionProps {
   content: HeroContent;
 }
@@ -33,7 +40,8 @@ export function HeroSection({ content }: HeroSectionProps) {
     document.getElementById("kontakt")?.scrollIntoView({ behavior: "smooth" });
   };
   const headlineParts = content.headline.split("\n");
-  const showImage = content.imageVisible !== false && content.image;
+  const heroImage = isPlaceholder(content.image) ? FALLBACK_HERO_IMAGE : content.image;
+  const showImage = content.imageVisible !== false;
 
   return (
     <section className="relative flex min-h-[70vh] overflow-hidden bg-stone-50 pb-20 pt-28 md:min-h-screen md:pb-32 md:pt-36">
@@ -124,7 +132,7 @@ export function HeroSection({ content }: HeroSectionProps) {
               className="w-full max-w-md flex-shrink-0 lg:max-w-lg"
             >
               <img
-                src={content.image}
+                src={heroImage}
                 alt=""
                 className="h-auto w-full rounded-2xl object-cover shadow-2xl shadow-stone-900/10"
               />

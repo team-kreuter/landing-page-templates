@@ -63,6 +63,12 @@ export default function HomePage() {
             ))}
           </nav>
         </div>
+        <div className="container mx-auto mt-4 border-t border-stone-200 pt-4 text-center text-xs text-stone-400">
+          Designed with ❤️ von{' '}
+          <a href="https://dirkkreuter.com" rel="nofollow noopener noreferrer" target="_blank" className="underline hover:text-primary transition-colors">
+            Dirk Kreuters Tech Team
+          </a>
+        </div>
       </footer>
     </>
   );

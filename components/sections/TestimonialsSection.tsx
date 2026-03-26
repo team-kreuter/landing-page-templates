@@ -5,6 +5,15 @@ import { Badge } from "@/components/ui/Badge";
 import { Star, Quote } from "lucide-react";
 import type { TestimonialsContent } from "@/types/content";
 
+const FALLBACK_AVATARS = [
+  "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&h=100&q=80",
+  "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=100&h=100&q=80",
+  "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=100&h=100&q=80",
+  "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&w=100&h=100&q=80",
+  "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&h=100&q=80",
+  "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&h=100&q=80",
+];
+
 interface TestimonialsSectionProps {
   content: TestimonialsContent;
 }
@@ -57,17 +66,11 @@ export function TestimonialsSection({ content }: TestimonialsSectionProps) {
                   &ldquo;{item.text}&rdquo;
                 </blockquote>
                 <div className="mt-6 flex items-center gap-3 border-t border-stone-100 pt-4">
-                  {item.image ? (
-                    <img
-                      src={item.image}
-                      alt={item.name}
-                      className="h-10 w-10 rounded-full object-cover"
-                    />
-                  ) : (
-                    <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/10 text-sm font-semibold text-primary-dark">
-                      {item.name.charAt(0)}
-                    </div>
-                  )}
+                  <img
+                    src={item.image || FALLBACK_AVATARS[i % FALLBACK_AVATARS.length]}
+                    alt={item.name}
+                    className="h-10 w-10 rounded-full object-cover"
+                  />
                   <div>
                     <p className="text-sm font-semibold text-stone-900">
                       {item.name}
