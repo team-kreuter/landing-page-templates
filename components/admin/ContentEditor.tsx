@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { ChevronDown, Plus, Trash2 } from "lucide-react";
 import { SaveButton } from "./SaveButton";
 import { ImageUpload } from "./ImageUpload";
+import { IconPicker } from "./IconPicker";
 
 interface ContentEditorProps {
   page: string;
@@ -208,9 +209,9 @@ export function ContentEditor({ page }: ContentEditorProps) {
                     }} className="text-red-400 hover:text-red-600"><Trash2 className="h-4 w-4" /></button>
                   </div>
                   <div className="grid gap-3 md:grid-cols-2">
-                    <input type="text" value={item.icon} placeholder="Icon (z.B. Clock)" onChange={(e) => {
-                      const items = [...data.problem.items]; items[i] = { ...item, icon: e.target.value }; set("problem.items", items);
-                    }} className="rounded-lg border border-stone-200 px-3 py-2 text-sm outline-none focus:border-stone-400" />
+                    <IconPicker value={item.icon} onChange={(v) => {
+                      const items = [...data.problem.items]; items[i] = { ...item, icon: v }; set("problem.items", items);
+                    }} />
                     <input type="text" value={item.title} placeholder="Titel" onChange={(e) => {
                       const items = [...data.problem.items]; items[i] = { ...item, title: e.target.value }; set("problem.items", items);
                     }} className="rounded-lg border border-stone-200 px-3 py-2 text-sm outline-none focus:border-stone-400" />
@@ -237,9 +238,9 @@ export function ContentEditor({ page }: ContentEditorProps) {
               <div key={i} className="rounded-lg border border-stone-100 bg-stone-50 p-4">
                 <p className="mb-2 text-sm font-medium text-stone-600">Schritt {i + 1}</p>
                 <div className="grid gap-3 md:grid-cols-2">
-                  <input type="text" value={step.icon} placeholder="Icon" onChange={(e) => {
-                    const steps = [...data.solution.steps]; steps[i] = { ...step, icon: e.target.value }; set("solution.steps", steps);
-                  }} className="rounded-lg border border-stone-200 px-3 py-2 text-sm outline-none focus:border-stone-400" />
+                  <IconPicker value={step.icon} onChange={(v) => {
+                    const steps = [...data.solution.steps]; steps[i] = { ...step, icon: v }; set("solution.steps", steps);
+                  }} />
                   <input type="text" value={step.title} placeholder="Titel" onChange={(e) => {
                     const steps = [...data.solution.steps]; steps[i] = { ...step, title: e.target.value }; set("solution.steps", steps);
                   }} className="rounded-lg border border-stone-200 px-3 py-2 text-sm outline-none focus:border-stone-400" />
@@ -269,9 +270,9 @@ export function ContentEditor({ page }: ContentEditorProps) {
                   }} className="text-red-400 hover:text-red-600"><Trash2 className="h-4 w-4" /></button>
                 </div>
                 <div className="grid gap-3 md:grid-cols-2">
-                  <input type="text" value={item.icon} placeholder="Icon" onChange={(e) => {
-                    const items = [...data.benefits.items]; items[i] = { ...item, icon: e.target.value }; set("benefits.items", items);
-                  }} className="rounded-lg border border-stone-200 px-3 py-2 text-sm outline-none focus:border-stone-400" />
+                  <IconPicker value={item.icon} onChange={(v) => {
+                    const items = [...data.benefits.items]; items[i] = { ...item, icon: v }; set("benefits.items", items);
+                  }} />
                   <input type="text" value={item.title} placeholder="Titel" onChange={(e) => {
                     const items = [...data.benefits.items]; items[i] = { ...item, title: e.target.value }; set("benefits.items", items);
                   }} className="rounded-lg border border-stone-200 px-3 py-2 text-sm outline-none focus:border-stone-400" />
